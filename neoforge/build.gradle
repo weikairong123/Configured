@@ -106,3 +106,16 @@ sourceSets.configureEach {
         }
     }
 }
+
+repositories {
+    // 
+
+    // 
+    // maven { url "https://maven.pkg.github.com/MrCrayfish/Maven" }
+
+    // 
+    maven { url "https://maven.mrcrayfish.com/" }
+
+    mavenCentral()
+}
+
