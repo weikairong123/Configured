@@ -9,3 +9,14 @@ plugins {
     id 'net.fabricmc.fabric-loom' version '1.16-SNAPSHOT' apply false
     id 'net.neoforged.moddev' version '2.0.141' apply false
 }
+repositories {
+    // 
+
+    // 
+    // maven { url "https://maven.pkg.github.com/MrCrayfish/Maven" }
+
+    // 
+    maven { url "https://maven.mrcrayfish.com/" }
+
+    mavenCentral()
+}
